@@ -151,7 +151,7 @@ public class Euler11 {
 		long rightUpProduct = 1;
 		long leftDownProduct = 1;
 		long rightDownProduct = 1;
-		int row = location / 20;
+		int row = location / ROWS;
 		int col = location % COLUMNS;
 		// Up Left
 		if (row >= CHAIN_LENGTH - 1 && col >= CHAIN_LENGTH - 1) {
